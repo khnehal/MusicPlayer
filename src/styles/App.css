@@ -1,0 +1,87 @@
+.displayContainer {
+    display: flex;
+    position: relative;
+    margin: 5px 10px;
+}
+
+.backButton {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: large;
+}
+
+.backButton:hover {
+    cursor: pointer;
+    transform: scale(1.05,1.0);
+    box-shadow: 5px 5px 5px 0 lightgray 5px 5px 5px 0 lightgray 5px 5px 5px 0 lightgray;
+}
+
+.backButton:active {
+    box-shadow: -3px 2px lightgray;
+    transform: translateY(1px);
+}
+
+.imageStyle {
+    width: 350px;
+    height: 350px;
+}
+
+.audioControls {
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5px 0;
+    padding: 5px
+}
+
+.btn {
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.05,1.0);
+    box-shadow: 5px 5px 5px 0 lightgray 5px 5px 5px 0 lightgray 5px 5px 5px 0 lightgray;
+}
+
+.btn:active {
+    box-shadow: -3px 2px lightgray;
+    transform: translateY(1px);
+}
+
+.labelStyle {
+    display: flex;
+    width: 350px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5px 0;
+    padding: 5px;
+    font-family: fantasy;
+    font-size: large;
+}
+
+.homeBtn {
+    width: 100px;
+    height: 45px;
+    border: none;
+    font-size: 30px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+
+.homeBtn:hover {
+    box-shadow: -3px 2px lightgray;
+    transform: translateY(1px);
+}
+
+.homeContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+}
